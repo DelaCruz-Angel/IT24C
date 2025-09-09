@@ -19,3 +19,10 @@ if (HoursStudied >= 5) {
 }else {
     console.log("You need to study more.");
 }
+
+//step 4
+let subjects = ["OOP", "Event Driven Programming", "Networking", "Web Development", "Database Systems"];
+console.log("List of my Subjects this semester:");
+for (let i = 0; i < subjects.length; i++) {
+    console.log(subjects[i]);
+}
