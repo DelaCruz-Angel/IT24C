@@ -5,3 +5,10 @@ let YearLevel = "2nd year";
 
 
 console.log("Name: " +name + "\nCourse: " +course + "\nYear Level: " +YearLevel);
+
+//step 2
+
+let HoursofSleep = 8;
+let HoursStudied = 5;
+
+console.log("Hours of Sleep: " +HoursofSleep + "\nHours Studied: " +HoursStudied);
