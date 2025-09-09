@@ -14,11 +14,13 @@ let HoursStudied = 5;
 console.log("Hours of Sleep: " +HoursofSleep + "\nHours Studied: " +HoursStudied);
 
 //step 3
+let studyMessage = "";
 if (HoursStudied >= 5) {
-    console.log("Great! You studied enough today.");
+    studyMessage = "Great! You studied enough today.";
 }else {
-    console.log("You need to study more.");
+    studyMessage = "You need to study more.";
 }
+console.log(studyMessage);
 
 //step 4
 let subjects = ["OOP", "Event Driven Programming", "Networking", "Web Development", "Database Systems"];
@@ -26,3 +28,10 @@ console.log("List of my Subjects this semester:");
 for (let i = 0; i < subjects.length; i++) {
     console.log(subjects[i]);
 }
+
+//step 5
+function studentSummary() {
+    return 'Student Summary: \nName: ' + name + '\nCourse: ' + course + '\nYear Level: ' + YearLevel + '\nHours of Sleep: ' + HoursofSleep + '\nHours Studied: ' + HoursStudied + '\n' + studyMessage + '\nSubjects: ' + subjects.join(', ');
+}
+
+console.log(studentSummary());
